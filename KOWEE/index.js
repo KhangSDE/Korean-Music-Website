@@ -163,32 +163,7 @@ cart.addEventListener("click", function(event) {
 
 })
 
-// IMAGE SLIDESHOW
-/*
-var images = 
-["https://www.meinauto.de/pics/wpimages/2022/09/22C0162_0221.jpg", "https://car-center-conen.de/templates/yootheme/cache/f5/IONIQ_6_MY23_Exterieur_1_4Front_BiophilicBlue_18Zoll%201-f5132df2.jpeg", "https://www.meinauto.de/pics/wpimages/2023/03/Tesla-Model-3-blau.jpg", "https://hips.hearstapps.com/hmg-prod/images/audi-rs5-competition-package-15-1652285177.jpg?crop=0.645xw:0.484xh;0.0928xw,0.318xh&resize=1200:*"];
 
-function changeImage() {
-    var randomNumber = Math.floor(Math.random() * images.length);
-    var imgElement = document.getElementById("ad");
-
-    imgElement.classList.add("fade-in");
-
-    setTimeout(function() {
-        imgElement.src = images[randomNumber];
-      }, 10); // Delay changing the image source
-    
-      // Remove the "fade-in" class after a longer delay to ensure full visibility
-      setTimeout(function() {
-        imgElement.classList.remove("fade-in");
-      }, 1000); // Delay removing the "fade-in" class
-    }
-    
-    // Call the function to change the image initially
-    changeImage();
-    
-    // Set interval to change the image every 5 seconds (5000 milliseconds)
-    setInterval(changeImage, 2000); */
 
 // ONCLICK ALBUM, AlBUM SWITCH
 

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+
+    <title>Document</title>
+</head>
+<body>
+
+
+    <section class="navbar">
+        <h1 class="header"><a href="start.html">KOWEE</a></h1>
+
+        <img id="menu" class="menu1" src="images\menu.png">
+        <img id="login" class="login1" src="images/refer.png">
+        <img id="cart" class="cart1" src="images/bag.png">
+
+        <div class="popUp" id="popUpMenu">
+            <p id="contact">contact</p>
+            <p>about</p>
+            <p id="login2">login</p>
+        </div>
+
+        <div id="loginMenu" class="loginMenu1">
+            <input type="text" id="user" class="user1" placeholder="username"></input>
+            <input type="text" id="password" class="password1" placeholder="password"></input>
+            <p id="enterLogin" class="enterLogin1">login</p>
+        </div>
+
+        <div id="cartMenu" class="cartMenu1">
+            <div id="image-container" class="image-container1">  
+                <img class="cart-image1" id="cart-image" src="https://i.scdn.co/image/ab67616d0000b2731d03b5e88cee6870778a4d27">
+            </div>  
+        </div>
+
+        <div class="search-items">
+            <input id="searchInput" class="searchInput1" type="text" placeholder="search for items"></input>
+        </div>
+
+    </section>
+
+    <div class="contactMe" id="contactMenu">
+        <img id="close" class="close1" src="images/close.png">
+        <input type="email" id="email" class="email1" placeholder="E-Mail"></input>
+        <input type="text" id="message" class="message1" placeholder="Enter your message"></input>
+        <p id="send" class="send1">send</p>
+    </div>
+
+<!--
+    <section class="album-container">
+        <p class="album-2">
+            <img id="enhypen" class="image-start" src="https://logolook.net/wp-content/uploads/2023/04/Enhypen-Logo.png">
+        </p>
+        <p class="album-2">
+            <img  id="bts" class="image-start bts" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/BTS_text_logo.svg/2560px-BTS_text_logo.svg.png">
+        </p>
+        <p class="album-2">
+            <img id="itzy"  class="image-start itzy" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d082a537-9a45-4512-af54-08c87b335298/dcxmdsu-9e719b7e-7264-4349-afda-5f596763f519.png/v1/fill/w_957,h_835/_itzy__logo___png_by_tsukinofleur_dcxmdsu-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTExOCIsInBhdGgiOiJcL2ZcL2QwODJhNTM3LTlhNDUtNDUxMi1hZjU0LTA4Yzg3YjMzNTI5OFwvZGN4bWRzdS05ZTcxOWI3ZS03MjY0LTQzNDktYWZkYS01ZjU5Njc2M2Y1MTkucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Nmk2cMKD3v5YxPgrKsl4izaBaSJfaY6EdkqTG68HsvQ">
+        </p>
+        <p class="album-2">
+            <img  id="aespa" class="image-start aespa" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Logo_of_Aespa_%28black%29.svg/1200px-Logo_of_Aespa_%28black%29.svg.png">
+        </p>
+        <p class="album-2">
+            <img  id="txt" class="image-start txt" src="https://i.pinimg.com/originals/fb/af/df/fbafdf8129f3dbaa6d7b5997399953a0.png">
+        </p>
+        <p class="album-2">
+            <img  id="twice" class="image-start twice" src="https://logos-world.net/wp-content/uploads/2021/11/TWICE-Logo.png">
+        </p>
+        <p class="album-2">
+            <img  id="blackpink" class="image-start blackpink" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0fc9ded4-899e-408f-8b33-c893599d0397/dfaszkr-c3957de6-6c30-40a9-a1bb-a0d4f53c344b.png/v1/fill/w_1280,h_300/blackpink_logo_png_by_neonflowerdesigns_dfaszkr-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzAwIiwicGF0aCI6IlwvZlwvMGZjOWRlZDQtODk5ZS00MDhmLThiMzMtYzg5MzU5OWQwMzk3XC9kZmFzemtyLWMzOTU3ZGU2LTZjMzAtNDBhOS1hMWJiLWEwZDRmNTNjMzQ0Yi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.sKVlOUucYkX0fv1GxmdBzJ3mBzNP3VxD7aOy9gEW05s">
+        </p>
+
+          <p class="album-2">
+            <img  id="agustd" class="image-start agustd" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fc3584b9-ef3c-44fd-a3b8-5e43c2e3e2fa/dfva2qm-47929942-ca4c-41b1-97cf-0e773bd351b6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZjMzU4NGI5LWVmM2MtNDRmZC1hM2I4LTVlNDNjMmUzZTJmYVwvZGZ2YTJxbS00NzkyOTk0Mi1jYTRjLTQxYjEtOTdjZi0wZTc3M2JkMzUxYjYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0kKAhLhhDHyCL8xGmOVDk_97mul1RrOUbJwaj-7j0Rk">
+        </p> 
+
+    </section> 
+-->
+    
+<section class="album-container">
+    <p class="album-2 enhypen" id="enhypen" >
+       ENHYPEN
+    </p>
+    <p class="album-2 bts" id="bts">
+        BTS
+    </p>
+    <p class="album-2 itzy" id="itzy" >
+        ITZY
+    </p>
+    <p class="album-2 aespa" id="aespa" >
+        AESPA
+    <p class="album-2 txt" id="txt">
+       TXT
+    </p>
+    <p class="album-2 twice" id="twice">
+        TWICE
+    </p>
+    <p class="album-2 blackpink" id="blackpink">
+       BLACKPINK
+    </p>
+
+
+
+</section>
+
+<div class="newsletter1" id="newsletter">
+    <img class="newsletter-image1" id="newsletter-image" src="images\newsletter.png">
+</div>
+
+    <section class="bottomBar">
+        <div class="container">
+
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+    <script src="startscreen.js"></script>
+</body>
+</html> 
